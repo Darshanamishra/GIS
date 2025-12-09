@@ -43,13 +43,9 @@ The output clearly highlights regional patterns — northern and interior counti
 
 ---
 
-## 🗺 Final Map Output
-
 ### **Percentage of California County Land Burned (2012–2022)**
-
-📄 **[Click here to open the final PDF map](./CA_Wildfire_Impact_Map.pdf)**  
-*(opens full map for detailed view)*
 
 🖼 Map Preview:  
 ```markdown
-<img src="./CA_Wildfire_Map_Preview.jpg" width="600" alt="California Wildfire Impact Map Preview">
+[<img src="./CA_Wildfire_Map_Preview.jpg" width="600">](./CA_Wildfire_Map_Preview.jpg)
+
