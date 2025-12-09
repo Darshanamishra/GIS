@@ -1,35 +1,55 @@
-California Wildfire Impact Analysis (2012–2022)
+# 📍 California Wildfire Impact Analysis (2012–2022)
 
-This project visualizes how much of each California county burned in wildfires over a ten-year period. Using wildfire perimeter data and county boundaries, I calculated total acres burned per county and converted it into a percentage of land area burned to compare wildfire impact across the state.
+This project visualizes how much land within each California county burned in wildfires over a ten-year period. Wildfire perimeters were processed in ArcGIS Pro to calculate **total acres burned per county**, summarized into **% of county land affected**, and mapped using Natural Breaks classification.
 
-The final result is a graduated map that highlights counties with low to high wildfire exposure.
+The output clearly highlights regional patterns — northern and interior counties show much higher burn percentages compared to many coastal areas.
 
-🔥 Project Workflow
+---
 
-Loaded wildfire perimeters & county boundary layers
+## 🔥 What This Project Demonstrates
 
-Dissolved wildfire polygons into a single footprint
+- GIS-based wildfire impact assessment  
+- Spatial overlay + area calculations  
+- Attribute summarization and % metrics  
+- Cartographic map design and labeling  
+- End-to-end ArcGIS Pro workflow  
 
-Intersected with county boundaries to isolate burned areas
+---
 
-Calculated burned acreage (US Survey Acres)
+## 🛠 Tools & Methods
 
-Summarized burned area per county
+| Technique | Purpose |
+|----------|----------|
+| **ArcGIS Pro** | Main analysis & map visualization |
+| Dissolve | Combine wildfire perimeters |
+| Intersect | Extract burned areas per county |
+| Calculate Geometry | Burned area in acres |
+| Summary Statistics | Total acres burned per county |
+| Field Calculator | Percent burned calculation |
+| Map Layout | Symbology, labels, legend, scale bar |
 
-Joined results back to counties & calculated % area burned
+---
 
-Symbolized using 5 Natural Breaks (Jenks) classes
+## 📊 Workflow Summary
 
-Designed final layout map with labels, legend, scale bar & metadata
+1. Loaded wildfire & county boundary datasets  
+2. Dissolved wildfire perimeters into one burnt area polygon  
+3. Intersected with county boundaries  
+4. Calculated acreage and summarized totals by county  
+5. Joined summary table back to counties + % burned field created  
+6. Classified data into **five classes using Natural Breaks (Jenks)**  
+7. Map layout designed with labels, legend, and metadata  
+8. Exported map as PDF and packaged ArcGIS project  
 
-🛠 Tools Used
+---
 
-ArcGIS Pro
+## 🗺 Final Map Output
 
-Dissolve • Intersect • Summary Statistics • Field Calculator
+### **Percentage of California County Land Burned (2012–2022)**
 
-Layout design & export
+📄 **[Click here to open the final PDF map](./CA_Wildfire_Impact_Map.pdf)**  
+*(opens full map for detailed view)*
 
-🗺 Final Map
-
-Percentage of County Area Burned by Wildfires (2012–2022)
+🖼 Map Preview:  
+```markdown
+<img src="./CA_Wildfire_Map_Preview.jpg" width="600" alt="California Wildfire Impact Map Preview">
