@@ -47,5 +47,5 @@ The output clearly highlights regional patterns — northern and interior counti
 
 🖼 Map Preview:
 
-[<img src="./CA_Wildfire_Map_Preview.jpg" width="600">](./CA_Wildfire_Map_Preview.jpg)
+<img src="https://raw.githubusercontent.com/Darshanamishra/GIS/main/California_FierImapct_Map.png" width="600">
 
